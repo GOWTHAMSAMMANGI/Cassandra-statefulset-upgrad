@@ -84,4 +84,4 @@ spec:
       volumes:
         - name: cassandra-data
           persistentVolumeClaim:
-            claimName: myclaim
+            claimName: pv-claim
